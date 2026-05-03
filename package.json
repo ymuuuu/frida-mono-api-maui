@@ -1,17 +1,18 @@
 {
   "name": "frida-mono-api-maui",
-  "description": "MAUI / unified-BCL extension to frida-mono-api: Frida-17-native string helpers and managed-delegate introspection. Sister project to ymuuuu/frida-mono-api@frida-17.",
-  "version": "0.0.1",
+  "description": "Standalone Mono API + MAUI / unified-BCL extension. Frida-17-native string helpers and managed-delegate introspection. Forked from freehuntx/frida-mono-api and GoSecure/frida-xamarin-unpin.",
+  "version": "0.1.0",
   "author": "ymuuuu",
   "license": "MIT",
   "main": "src/index.js",
   "dependencies": {
-    "frida-mono-api": "file:../frida-mono-api"
+    "frida-ex-nativefunction": "^0.1.2"
   },
   "keywords": [
     "frida",
     "mono",
     "maui",
-    "dotnet"
+    "dotnet",
+    "xamarin"
   ]
 }

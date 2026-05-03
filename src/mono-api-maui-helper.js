@@ -1,4 +1,5 @@
-import { MonoApi, MonoApiHelper } from 'frida-mono-api'
+import MonoApi from './mono-api'
+import MonoApiHelper from './mono-api-helper'
 
 // MonoDelegate object layout (ARM64 LP64, stable across mono/mono and dotnet/runtime
 // forks per src/mono/mono/metadata/object-internals.h):
