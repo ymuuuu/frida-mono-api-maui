@@ -44,7 +44,6 @@ console.log(`hooked method name = ${MonoApiMauiHelper.MethodGetName(method)}`)
 
 - [@freehuntx](https://github.com/freehuntx) — original `frida-mono-api`.
 - [GoSecure](https://github.com/GoSecure) — `extra` branch additions consumed by the Xamarin tooling.
-- This standalone fork — [@ymuuuu](https://github.com/ymuuuu).
 
 ## License
 
